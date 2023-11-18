@@ -47,3 +47,12 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 mysql>
 ```
 
+
+Insert test tables and datas into db database
+
+
+```bash
+bash-4.2# cd /var/tmp
+bash-4.2# mysql -u user -p db < examples/insert.sql 
+```
+

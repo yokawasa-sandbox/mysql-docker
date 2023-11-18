@@ -17,6 +17,7 @@ services:
     # Where our data will be persisted
     volumes:
       - mysql:/var/lib/mysql
+      - .:/var/tmp
 # Names volume
 volumes:
   mysql:
